@@ -10,7 +10,7 @@ const rl = readline.createInterface({
 //asks for the password
 rl.question('What is the password? ', function checkPass(pass) {
   //if the password is correct
-  if (pass == 'Poseidon789') {
+  if (pass == 'PUTYOURPASSWORDHERE') {
     //asks another question
     rl.question('Type "r" if you are retrieving password and "a" if you are adding password: ', function (rora) {
       main(rora.toUpperCase());
