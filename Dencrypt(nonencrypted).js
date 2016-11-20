@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const fs = require('fs');
-const key = 'Poseidon789';
+const key = 'PUTYOURKEYHERE';
 const cipher = crypto.createCipher('aes192', key);
 const decipher = crypto.createDecipher('aes192', key);
 exports.encrypt = function (where, pass) {
