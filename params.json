@@ -1,0 +1,6 @@
+{
+  "name": "Node-encryptor",
+  "tagline": "Uses node.js to encrypt passwords",
+  "body": "# Chase Jeter's simple encryption code using node.js",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
